@@ -109,14 +109,22 @@
 # print(numbers)
 
 
-colors = ['red','green','blue']
-for e in colors:
-    print(e)
-for e in colors:
-    e *= 2
-    print(e)
-colors.append('gray')
-print(colors)
-colors.remove('red')
-del colors[0]
-print(colors)
+# colors = ['red','green','blue']
+# for e in colors:
+#     print(e)
+# for e in colors:
+#     e *= 2
+#     print(e)
+# colors.append('gray')
+# print(colors)
+# colors.remove('red')
+# del colors[0]
+# print(colors)
+
+def f(x,y):
+    
+    if x > y:
+        print('max = x')
+    else:
+        print('max = y')
+    
