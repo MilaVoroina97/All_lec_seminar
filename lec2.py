@@ -196,12 +196,13 @@
 
 # Списки:
 
-list = [1,2,3,4,5]
-list.pop(2)
-print(list)
-list.insert(2,11)
-print(list)
+# list = [1,2,3,4,5]
+# list.pop(2)
+# print(list)
+# list.insert(2,11)
+# print(list)
 
-
+# # Функция замены типов для значений в ключах:
+# test2 = {k: float(v) for k, v in test.items()}
 
 
